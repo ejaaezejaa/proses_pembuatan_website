@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatBersama - Hubungi Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <div class="logo">Sehat<span>Bersama</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Hubungi Kami</h1>
+        <p>Ada pertanyaan atau saran? Kami siap mendengarkan dan membantu Anda.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <p>Jangan ragu untuk menghubungi kami melalui saluran berikut atau isi formulir pesan.</p>
+
+                <div class="info-item">
+                    <strong>📍 Alamat:</strong>
+                    <p>Jl. Kesehatan No. 123, Jakarta Selatan, Indonesia</p>
+                </div>
+                <div class="info-item">
+                    <strong>📧 Email:</strong>
+                    <p>info@sehatbersama.com</p>
+                </div>
+                <div class="info-item">
+                    <strong>📞 Telepon / Whatsapp:</strong>
+                    <p>+62 812 3456 7890</p>
+                </div>
+                <div class="info-item">
+                    <strong>⏰ Jam Operasional:</strong>
+                    <p>Senin - Jumat: 08.00 - 17.00 WIB</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Kirim Pesan</h3>
+                <form action="#" method="post"
+                    onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah terkirim.');">
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subjek">Subjek</label>
+                        <input type="text" id="subjek" name="subjek" placeholder="Pertanyaan / Kerjasama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan Anda</label>
+                        <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SehatBersama</p>
+    </footer>
+
+</body>
+
+</html>
