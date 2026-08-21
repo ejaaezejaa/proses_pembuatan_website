@@ -31,6 +31,8 @@
     <!-- Contact Section -->
     <section class="contact-section">
         <div class="contact-container">
+
+            <!-- Sidebar Informasi Kontak (Baru Alamat & Email, Sisanya Belum Ada) -->
             <div class="contact-info">
                 <h3>Informasi Kontak</h3>
                 <p>Jangan ragu untuk menghubungi kami melalui saluran berikut atau isi formulir pesan.</p>
@@ -43,46 +45,39 @@
                     <strong>📧 Email:</strong>
                     <p>info@sehatbersama.com</p>
                 </div>
-                <div class="info-item">
-                    <strong>📞 Telepon / Whatsapp:</strong>
-                    <p>+62 812 3456 7890</p>
-                </div>
-                <div class="info-item">
-                    <strong>⏰ Jam Operasional:</strong>
-                    <p>Senin - Jumat: 08.00 - 17.00 WIB</p>
-                </div>
+
+                <!-- TODO: Tambahkan <div class="info-item"> untuk Telepon dan Jam Operasional di sini -->
+
             </div>
 
+            <!-- Form Kontak (Baru Input Nama & Email, Input Lain Belum Ada) -->
             <div class="contact-form">
                 <h3>Kirim Pesan</h3>
-                <form action="#" method="post"
-                    onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah terkirim.');">
+                <form action="#" method="post" onsubmit="event.preventDefault(); alert('Pesan terkirim!');">
+
                     <div class="form-group">
                         <label for="nama">Nama Lengkap</label>
                         <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
                     </div>
+
                     <div class="form-group">
                         <label for="email">Alamat Email</label>
                         <input type="email" id="email" name="email" placeholder="nama@email.com" required>
                     </div>
-                    <div class="form-group">
-                        <label for="subjek">Subjek</label>
-                        <input type="text" id="subjek" name="subjek" placeholder="Pertanyaan / Kerjasama" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="pesan">Pesan Anda</label>
-                        <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..."
-                            required></textarea>
-                    </div>
-                    <button type="submit" class="btn-submit">Kirim Pesan</button>
+
+                    <!-- TODO: Tambahkan input untuk 'Subjek' dan textarea untuk 'Pesan Anda' di sini -->
+
+                    <!-- TODO: Tambahkan tombol <button type="submit" class="btn-submit"> di sini -->
+
                 </form>
             </div>
+
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 SehatBersama</p>
+        <p>&copy; 2026 SehatBersama. Seluruh Hak Cipta Dilindungi.</p>
     </footer>
 
 </body>
